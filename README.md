@@ -5,7 +5,7 @@ Ulubiony serial:
 
 
 
-### Zadanie 1 - Silo
+### Zadanie 1 - Silo - zrobione
 
 Twoim zadaniem jest obliczenie liczby piętrem do przejścia. 
 
@@ -26,3 +26,28 @@ def oblicz_pietra(pietro_startowe, pietro_koncowe):
 
 ```
 
+### Zadanie 2 - W pustyni i w puszczy
+
+Twoim zadaniem jest wysłanie wiadomości ratunkowej, którą Stanisław Tarkowski 
+wysyłał za pomocą latawców zrobionych z płuc ryb.
+
+Aby obsłużyć proces szerzej, jako dane wejściowe przyjmij imię i nazwisko (`name_lastname`), 
+i kierunek ucieczki (`direction`).
+
+Funkcja `wyslij_latawca()` powinna znajdować się w pliku `main.py` i zwracać (`return`)
+w postaci ciągu znaków.
+
+Dane wejściowe: str, str
+
+Przykład: `Jan Kowalski`, `północ`
+
+Dane wyjściowe: str
+
+Przykład: `Nazywam sie Jan Kowalski, zmierzam na północ`
+
+Kod do uzupełnienia:
+```python
+def wyslij_latawca(name_lastname, direction):
+    pass
+
+```
