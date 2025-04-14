@@ -51,3 +51,13 @@ def wyslij_latawca(name_lastname, direction):
     pass
 
 ```
+
+
+### Zadanie 3 - Echo
+
+Twoim zadaniem jest napisanie funkcji oraz testów (5 typu assert), które przyjmują dane wejściowe tekst i powtarzają 
+3 razy osoatnie słowo, przy czym ostatnie słowo ma być dużymi, średnimi i małymi. W najstepującym schemacie:
+
+`Lubię placki!` --> `PLACKI Placki placki`
+
+Funkcja ma się nazywać `echo()` i znajdować się na branchu `main`.
